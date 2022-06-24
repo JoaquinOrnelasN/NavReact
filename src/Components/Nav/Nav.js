@@ -1,6 +1,7 @@
 import logo from '../../assets/logo.png'
 import './Nav.css'
-import { FaCartArrowDown } from "react-icons/fa";
+import { FaCartArrowDown } from "react-icons/fa"
+import Button from '../ItemListContainer/ItemListContainer';
 
 const Nav = () => {
     return (
@@ -11,8 +12,9 @@ const Nav = () => {
                 <a href="">Inicio</a>
                 <a href="">Productos</a>
                 <a href="">Contacto</a>                             
-            </nav>
-                <h2><FaCartArrowDown size='30px' /></h2>                    
+            </nav>                    
+                <div><Button /></div>   
+                <h2><FaCartArrowDown size='30px' color='#50366d' /></h2>           
         </header>
     )
 }
